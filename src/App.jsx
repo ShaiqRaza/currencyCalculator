@@ -7,7 +7,6 @@ function App() {
   const [from, setFrom] = useState("usd")
   const [to, setTo] = useState("pkr")
   const [amount, setAmount] = useState(1)
-  console.log("hello")
 
   const currencyData = useCurrencyInfo(from)
   const currencyKeys = Object.keys(currencyData)

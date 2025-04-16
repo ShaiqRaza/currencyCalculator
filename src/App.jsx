@@ -8,6 +8,8 @@ function App() {
   const [to, setTo] = useState("pkr")
   const [amount, setAmount] = useState(1)
 
+  console.log("shaiq bhai git kar rahe ho")
+
   const currencyData = useCurrencyInfo(from)
   const currencyKeys = Object.keys(currencyData)
 

@@ -10,6 +10,8 @@ function App() {
 
   console.log("shaiq bhai git kar rahe ho")
 
+  console.log("Han kr raha hun");
+
   const currencyData = useCurrencyInfo(from)
   const currencyKeys = Object.keys(currencyData)
 
